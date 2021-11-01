@@ -5,8 +5,9 @@
 // Footer
 
 import Head from 'next/head';
+import { FAQ } from '../src/components/FAQ';
 import { Footer } from '../src/components/Layouts/Footer';
-import Nav from '../src/components/Layouts/Nav';
+import { Nav } from '../src/components/Layouts/Nav';
 import { Testimonial } from '../src/components/Testimonial';
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <Nav />
       <main className='pt-32'>
         <Testimonial />
+        <FAQ />
       </main>
       <Footer />
     </div>

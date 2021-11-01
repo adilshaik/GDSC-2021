@@ -15,7 +15,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
 
-export default function Nav() {
+export const Nav = () => {
   return (
     <Popover className='fixed w-full z-10 bg-white border-b-2 border-gray-50 shadow-lg'>
       <div className='flex justify-between items-center px-4 py-4 sm:px-6 md:justify-start md:space-x-10'>
@@ -112,4 +112,4 @@ export default function Nav() {
       </Transition>
     </Popover>
   );
-}
+};
