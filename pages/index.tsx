@@ -1,17 +1,18 @@
-//nav
-//hero
-//motto
-//faq
-//footer
+// Nav
+// Hero
+// Motto
+// Faq
+// Footer
 
-import Head from "next/head";
+import Head from 'next/head';
+import Nav from '../src/components/Layouts/Nav';
 
 export default function Home() {
   return (
     <div>
       <Head>
         <title>GDSC</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel='icon' href='/favicon.ico' />
       </Head>
 
       <main>
