@@ -5,7 +5,9 @@
 // Footer
 
 import Head from 'next/head';
+import React from 'react';
 import { FAQ } from '../src/components/FAQ';
+import { Hero } from '../src/components/Hero';
 import { Footer } from '../src/components/Layouts/Footer';
 import { Nav } from '../src/components/Layouts/Nav';
 import { Motto } from '../src/components/Motto';
@@ -20,6 +22,7 @@ export default function Home() {
       </Head>
       <Nav />
       <main className='pt-32'>
+        <Hero />
         <Motto />
         <Testimonial />
         <FAQ />
