@@ -4,10 +4,11 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import Link from 'next/link';
 
 const navigation = [
+  { name: 'Team', href: '/team' },
+  { name: 'Tracks', href: '/tracks ' },
+  { name: 'Motto', href: '/motto' },
   { name: 'Blogs', href: '/blogs' },
-  { name: 'About Us', href: '#' },
-  { name: 'Contact Us', href: '#' },
-  { name: 'FAQ', href: '#' },
+  { name: 'WOW', href: '/wow ' },
 ];
 
 function classNames(...classes) {
@@ -17,19 +18,18 @@ function classNames(...classes) {
 export default function Nav() {
   return (
     <Popover className='fixed w-full z-10 bg-white border-b-2 border-gray-50 shadow-lg'>
-      <div className='flex justify-between items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10'>
+      <div className='flex justify-between items-center px-4 py-4 sm:px-6 md:justify-start md:space-x-10'>
         <div className='flex justify-start lg:w-0 lg:flex-1'>
           <Link href='/'>
             <a className='flex items-center'>
-              <span className='sr-only'>QubeSaaS</span>
-              <img
-                className='h-7 w-auto sm:h-7'
-                src='/favicon.ico'
-                alt='qubesaas'
-              />
-              <span className='text-lg tracking-wider ml-2 font-semibold'>
-                QubeSaaS
-              </span>
+              <span className='sr-only'>CVR COLLEGE OF ENGINEERING</span>
+              <div className='flex flex-row items-center'>
+                <img
+                  className='h-12 w-auto sm:h-12'
+                  src='/dsccvr.png'
+                  alt='gdsccvr'
+                />
+              </div>
             </a>
           </Link>
         </div>
@@ -44,8 +44,8 @@ export default function Nav() {
           <Popover.Group as='nav' className='hidden md:flex space-x-10'>
             {navigation.map((navigate) => {
               return (
-                <Link href={navigate.href}>
-                  <span className='cursor-pointer text-base font-medium text-gray-500 hover:text-gray-900'>
+                <Link key={navigate.name} href={navigate.href}>
+                  <span className='cursor-pointer text-lg font-medium text-gray-500 hover:text-gray-900'>
                     {navigate.name}
                   </span>
                 </Link>
@@ -73,15 +73,17 @@ export default function Nav() {
               <div className='flex items-center justify-between'>
                 <Link href='/'>
                   <a className='flex items-center'>
-                    <span className='sr-only'>QubeSaaS</span>
-                    <img
-                      className='h-7 w-auto sm:h-7'
-                      src='/favicon.ico'
-                      alt='qubesaas'
-                    />
-                    <span className='text-lg tracking-wider ml-2 font-semibold'>
-                      CVR COLLEGE OF ENGINEERING
-                    </span>
+                    <span className='sr-only'>CVR COLLEGE OF ENGINEERING</span>
+                    <div className='flex flex-col items-center'>
+                      <img
+                        className='h-12 w-auto sm:h-12'
+                        src='/dsccvr.png'
+                        alt='gdsccvr'
+                      />
+                      <span className='block text-lg tracking-wider font-semibold text-gray-500'>
+                        Google Developers Student Club
+                      </span>
+                    </div>
                   </a>
                 </Link>
                 <div className='-mr-2'>
@@ -96,8 +98,8 @@ export default function Nav() {
               <div className='grid grid-cols-1 gap-4'>
                 {navigation.map((navigate) => {
                   return (
-                    <Link href={navigate.href}>
-                      <span className='cursor-pointer text-base font-medium text-gray-900 hover:text-gray-700'>
+                    <Link key={navigate.name} href={navigate.href}>
+                      <span className='cursor-pointer text-lg font-medium text-gray-900 hover:text-gray-700'>
                         {navigate.name}
                       </span>
                     </Link>
