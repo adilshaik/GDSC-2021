@@ -8,6 +8,7 @@ import Head from 'next/head';
 import { FAQ } from '../src/components/FAQ';
 import { Footer } from '../src/components/Layouts/Footer';
 import { Nav } from '../src/components/Layouts/Nav';
+import { Motto } from '../src/components/Motto';
 import { Testimonial } from '../src/components/Testimonial';
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       </Head>
       <Nav />
       <main className='pt-32'>
+        <Motto />
         <Testimonial />
         <FAQ />
       </main>
