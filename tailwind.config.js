@@ -1,4 +1,5 @@
 const colors = require('tailwindcss/colors');
+const aspect = require('@tailwindcss/aspect-ratio');
 
 module.exports = {
   purge: [],
@@ -14,5 +15,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [aspect],
 };
