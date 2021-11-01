@@ -6,6 +6,7 @@
 
 import Head from 'next/head';
 import Nav from '../src/components/Layouts/Nav';
+import { Testimonial } from '../src/components/Testimonial';
 
 export default function Home() {
   return (
@@ -15,7 +16,9 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Nav />
-      <main></main>
+      <main className='pt-32'>
+        <Testimonial />
+      </main>
     </div>
   );
 }
