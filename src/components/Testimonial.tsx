@@ -39,7 +39,7 @@ export const Testimonial: React.FC = () => {
               </div>
               <footer className='mt-6'>
                 <p className='text-base font-medium text-white'>
-                  Srimanth Tennati
+                  Srimanth Tenneti
                 </p>
                 <p className='text-base font-medium text-cyan-100'>
                   GDSC Lead 2021
