@@ -1,25 +1,39 @@
 ---
-nav:
-  - logo: "QS-Blogs"
 blogs:
-  - id: "post1"
-    title: "Next.js + Contentful + Medium style blog"
-    shortDesc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-    image: "https://viral-loops.com/blog/wp-content/uploads/2020/12/nrmg-heroimg-1-1160x497.jpg"
-  - id: "post2"
-    title: "Next.js + Contentful + Medium style blog"
-    shortDesc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-    image: "https://images.ctfassets.net/el2orhksvy4m/5iUDnHbf75bbBUNj9YS0zh/cf1ab5777be4b099402aa21de54b8393/photo-1506775352297-a5fa9c136675"
-  - id: "post3"
-    title: "Next.js + Contentful + Medium style blog"
-    author: "Maxi Gimenez"
-    shortDesc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-    image: "https://viral-loops.com/blog/wp-content/uploads/2021/08/vl-product-update-2021-july.jpg"
-  - id: "post4"
-    title: "Next.js + Contentful + Medium style blog"
-    shortDesc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-    image: "https://viral-loops.com/blog/wp-content/uploads/2021/08/vl_blog_21_018-1.jpg"
-footer:
-  logo: "QS-Blogs"
-  copyright: "Copyright © 2020 . All rights reserved."
+  - id: 'post1'
+    title: 'Boost your conversion rate'
+    category: 'Article'
+    date: 'Mar 16, 2020'
+    datetime: '2020-03-16'
+    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.'
+    image: 'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80'
+    readingTime: '6 min'
+    author:
+        name: 'Roel Aufderehar'
+        imageUrl:
+        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80'
+  - id: 'post2'
+    title: 'How to use search engine optimization to drive sales'
+    category: 'Video'
+    date: 'Mar 16, 2020'
+    datetime: '2020-03-16'
+    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.'
+    image: 'https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80'
+    readingTime: '6 min'
+    author:
+        name: 'Roel Aufderehar'
+        imageUrl:
+        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80'
+  - id: 'post3'
+    title: 'Boost your conversion rate'
+    category: 'Article'
+    date: 'Mar 16, 2020'
+    datetime: '2020-03-16'
+    shortDesc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.'
+    image: 'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80'
+    readingTime: '6 min'
+    author:
+        name: 'Roel Aufderehar'
+        imageUrl:
+        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80'  
 ---
