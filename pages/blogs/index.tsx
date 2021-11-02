@@ -9,17 +9,17 @@ export interface IBlog {
   image: string;
 }
 const blogs: React.FC = () => {
-  const [blogsData, setBlogsData] = useState<IBlog[]>(undefined);
+  const [posts, setPosts] = useState<IBlog[]>(undefined);
   const router = useRouter();
   const grabData = async () => {
     const res = await import(`../../content/blogs/${"content"}.md`);
     const data = res.default;
-    setBlogsData(data.attributes.blogs);
+    setPosts(data.attributes.blogs);
   };
   useEffect(() => {
     grabData();
   }, []);
-  if (blogsData) console.log(blogsData);
+  if (posts) console.log(posts);
   return (
     <React.Fragment>
       <Head>
