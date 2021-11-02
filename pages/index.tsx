@@ -15,19 +15,19 @@ import { Testimonial } from '../src/components/Testimonial';
 
 export default function Home() {
   return (
-    <div>
+    <React.Fragment>
       <Head>
         <title>GDSC</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Nav />
-      <main className='pt-32'>
+      <main className='pt-24'>
         <Hero />
         <Motto />
         <Testimonial />
         <FAQ />
       </main>
       <Footer />
-    </div>
+    </React.Fragment>
   );
 }
