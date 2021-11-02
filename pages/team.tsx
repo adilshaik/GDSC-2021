@@ -11,6 +11,168 @@ const people = [
     twitterUrl: '#',
     linkedinUrl: '#',
   },
+  {
+    name: 'Srimanth Tenneti',
+    role: 'Community Lead & Machine Learning Lead',
+    imageUrl:
+      'https://drive.google.com/file/d/19OwoufmQHWrwPICqfvnEvJ0ApFKBXzz5/view',
+    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Srimanth Tenneti',
+    role: 'Community Lead & Machine Learning Lead',
+    imageUrl:
+      'https://drive.google.com/file/d/19OwoufmQHWrwPICqfvnEvJ0ApFKBXzz5/view',
+    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Srimanth Tenneti',
+    role: 'Community Lead & Machine Learning Lead',
+    imageUrl:
+      'https://drive.google.com/file/d/19OwoufmQHWrwPICqfvnEvJ0ApFKBXzz5/view',
+    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Srimanth Tenneti',
+    role: 'Community Lead & Machine Learning Lead',
+    imageUrl:
+      'https://drive.google.com/file/d/19OwoufmQHWrwPICqfvnEvJ0ApFKBXzz5/view',
+    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Srimanth Tenneti',
+    role: 'Community Lead & Machine Learning Lead',
+    imageUrl:
+      'https://drive.google.com/file/d/19OwoufmQHWrwPICqfvnEvJ0ApFKBXzz5/view',
+    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Srimanth Tenneti',
+    role: 'Community Lead & Machine Learning Lead',
+    imageUrl:
+      'https://drive.google.com/file/d/19OwoufmQHWrwPICqfvnEvJ0ApFKBXzz5/view',
+    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Srimanth Tenneti',
+    role: 'Community Lead & Machine Learning Lead',
+    imageUrl:
+      'https://drive.google.com/file/d/19OwoufmQHWrwPICqfvnEvJ0ApFKBXzz5/view',
+    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Srimanth Tenneti',
+    role: 'Community Lead & Machine Learning Lead',
+    imageUrl:
+      'https://drive.google.com/file/d/19OwoufmQHWrwPICqfvnEvJ0ApFKBXzz5/view',
+    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Srimanth Tenneti',
+    role: 'Community Lead & Machine Learning Lead',
+    imageUrl:
+      'https://drive.google.com/file/d/19OwoufmQHWrwPICqfvnEvJ0ApFKBXzz5/view',
+    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Srimanth Tenneti',
+    role: 'Community Lead & Machine Learning Lead',
+    imageUrl:
+      'https://drive.google.com/file/d/19OwoufmQHWrwPICqfvnEvJ0ApFKBXzz5/view',
+    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Srimanth Tenneti',
+    role: 'Community Lead & Machine Learning Lead',
+    imageUrl:
+      'https://drive.google.com/file/d/19OwoufmQHWrwPICqfvnEvJ0ApFKBXzz5/view',
+    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Srimanth Tenneti',
+    role: 'Community Lead & Machine Learning Lead',
+    imageUrl:
+      'https://drive.google.com/file/d/19OwoufmQHWrwPICqfvnEvJ0ApFKBXzz5/view',
+    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Srimanth Tenneti',
+    role: 'Community Lead & Machine Learning Lead',
+    imageUrl:
+      'https://drive.google.com/file/d/19OwoufmQHWrwPICqfvnEvJ0ApFKBXzz5/view',
+    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Srimanth Tenneti',
+    role: 'Community Lead & Machine Learning Lead',
+    imageUrl:
+      'https://drive.google.com/file/d/19OwoufmQHWrwPICqfvnEvJ0ApFKBXzz5/view',
+    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Srimanth Tenneti',
+    role: 'Community Lead & Machine Learning Lead',
+    imageUrl:
+      'https://drive.google.com/file/d/19OwoufmQHWrwPICqfvnEvJ0ApFKBXzz5/view',
+    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Srimanth Tenneti',
+    role: 'Community Lead & Machine Learning Lead',
+    imageUrl:
+      'https://drive.google.com/file/d/19OwoufmQHWrwPICqfvnEvJ0ApFKBXzz5/view',
+    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Srimanth Tenneti',
+    role: 'Community Lead & Machine Learning Lead',
+    imageUrl:
+      'https://drive.google.com/file/d/19OwoufmQHWrwPICqfvnEvJ0ApFKBXzz5/view',
+    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Srimanth Tenneti',
+    role: 'Community Lead & Machine Learning Lead',
+    imageUrl:
+      'https://drive.google.com/file/d/19OwoufmQHWrwPICqfvnEvJ0ApFKBXzz5/view',
+    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
   // More people...
 ];
 
