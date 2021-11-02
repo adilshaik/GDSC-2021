@@ -1,5 +1,6 @@
 import React from "react";
 import { IBlog } from "../../pages/blogs";
+import Link from "next/link";
 interface IProps {
   post: IBlog;
 }
@@ -23,14 +24,16 @@ export const BlogCard: React.FC<IProps> = (props) => {
               {props.post.category}
             </a>
           </p>
-          <div onClick={() => {}} className="block mt-2">
-            <p className="text-xl font-semibold text-gray-900">
-              {props.post.title}
-            </p>
-            <p className="mt-3 text-base text-gray-500">
-              {props.post.shortDesc}
-            </p>
-          </div>
+          <Link href={`/blogs/${props.post.id}`}>
+            <div className="cursor-pointer">
+              <p className="text-xl font-semibold text-gray-900 block mt-2">
+                {props.post.title}
+              </p>
+              <p className="mt-3 text-base text-gray-500">
+                {props.post.shortDesc}
+              </p>
+            </div>
+          </Link>
         </div>
         <div className="mt-6 flex items-center">
           <div className="flex-shrink-0">
