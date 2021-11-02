@@ -1,6 +1,6 @@
 import { Router, useRouter } from "next/dist/client/router";
 import React, { useState, useEffect } from "react";
-import Nav from "../../src/components/Layouts/Nav";
+import { Nav } from "../../src/components/Layouts/Nav";
 export interface IBlog {
   id: string;
   title: string;
