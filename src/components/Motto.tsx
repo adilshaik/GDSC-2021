@@ -48,7 +48,7 @@ export const Motto: React.FC = () => {
           {`
             .card {
               position: relative;
-              max-width: 300px;
+              max-width: 400px;
               height: 215px;
               background: #fff;
               margin: 70px 10px;
@@ -69,9 +69,10 @@ export const Motto: React.FC = () => {
               border-radius: 10px;
               width: 260px;
               height: 260px;
+              object-fit: cover;
               z-index: 1;
               top: -60px;
-              left: 5px;
+              left: 50px;
               box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
             }
             .card .imgBox img {
