@@ -48,7 +48,7 @@ export const EventCard: React.FC<IProps> = (props) => {
                 <p className='text-md font-semibold text-gray-500 pr-7'>
                   {event.description}
                 </p>
-                {new Date().getDate() > new Date(event.date).getDate() ? (
+                {new Date().getTime() > new Date(event.date).getTime() ? (
                   <a
                     href=''
                     className='my-2 text-indigo-700 font-semibold underline'

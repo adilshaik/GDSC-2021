@@ -1,8 +1,8 @@
-import Head from "next/head";
-import React from "react";
-import { EventCard } from "../src/components/EventCard";
-import { EventHero } from "../src/components/EventHero";
-import { Nav } from "../src/components/Layouts/Nav";
+import Head from 'next/head';
+import React from 'react';
+import { EventCard } from '../src/components/EventCard';
+import { EventHero } from '../src/components/EventHero';
+import { Nav } from '../src/components/Layouts/Nav';
 
 const eventList = [
   {
@@ -11,7 +11,7 @@ const eventList = [
   temporibus dicta tempore, doloribus incidunt magni repudiandae id
   perferendis. Quas, hic!`,
     date: '15 Sept 2021',
-    time: '11:00 pm',
+    time: '11:00 am',
     watchUrl: '',
     registerUrl: '',
   },
@@ -26,52 +26,52 @@ const eventList = [
     registerUrl: '',
   },
   {
-    title: 'Introduction to 30 days of google cloud',
+    title: 'GDSC CVR World of Women kickstart',
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
   temporibus dicta tempore, doloribus incidunt magni repudiandae id
   perferendis. Quas, hic!`,
-    date: '02 Nov 2021',
-    time: '6:00 pm',
+    date: '16 Oct 2021',
+    time: '5:30 PM',
     watchUrl: '',
     registerUrl: '',
   },
   {
-    title: 'Introduction to 30 days of google cloud',
+    title: 'Day 1: Introduction to Web Technologies',
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
   temporibus dicta tempore, doloribus incidunt magni repudiandae id
   perferendis. Quas, hic!`,
-    date: '02 Nov 2021',
-    time: '6:00 pm',
+    date: '18 Oct 2021',
+    time: '7:00 pm',
     watchUrl: '',
     registerUrl: '',
   },
   {
-    title: 'Introduction to 30 days of google cloud',
+    title: 'Day 2: Introduction to Web Technologies',
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
   temporibus dicta tempore, doloribus incidunt magni repudiandae id
   perferendis. Quas, hic!`,
-    date: '02 Nov 2021',
-    time: '6:00 pm',
+    date: '19 Oct 2021',
+    time: '7:00 pm',
     watchUrl: '',
     registerUrl: '',
   },
   {
-    title: 'Introduction to 30 days of google cloud',
+    title: 'Day 3: Introduction to Web Technologies',
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
   temporibus dicta tempore, doloribus incidunt magni repudiandae id
   perferendis. Quas, hic!`,
-    date: '02 Nov 2021',
-    time: '6:00 pm',
+    date: '20 Oct 2021',
+    time: '7:00 pm',
     watchUrl: '',
     registerUrl: '',
   },
   {
-    title: 'Introduction to 30 days of google cloud',
+    title: 'Training by Cyrrup Solutions',
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
   temporibus dicta tempore, doloribus incidunt magni repudiandae id
   perferendis. Quas, hic!`,
-    date: '02 Nov 2021',
-    time: '6:00 pm',
+    date: '08 Nov 2021',
+    time: '10:00 am',
     watchUrl: '',
     registerUrl: '',
   },
@@ -82,10 +82,10 @@ const events: React.FC = () => {
     <React.Fragment>
       <Head>
         <title>GDSC</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel='icon' href='/favicon.ico' />
       </Head>
       <Nav />
-      <main className="pt-24">
+      <main className='pt-24'>
         <EventHero />
         <EventCard content={eventList} />
       </main>
