@@ -65,6 +65,13 @@ export const TeamCard: React.FC<IProps> = (props) => {
           <span className='sr-only'>Youtube</span>
           <BsYoutube />
         </a>
+        <a
+          href={props.person.twitterUrl}
+          className='text-gray-400 hover:text-gray-500'
+        >
+          <span className='sr-only'>Instagram</span>
+          <BsInstagram />
+        </a>
       </div>
 
       {/* <div className='flex space-x-5'>
