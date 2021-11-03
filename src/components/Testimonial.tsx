@@ -13,8 +13,8 @@ export const Testimonial: React.FC = () => {
             <div className='aspect-w-10 aspect-h-6 rounded-xl shadow-xl overflow-hidden sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full'>
               <img
                 className='object-cover lg:h-full lg:w-full'
-                src='/lead2021.jpeg'
-                alt=''
+                src='/team/SrimanthTenneti.jpg'
+                alt='lead-image'
               />
             </div>
           </div>

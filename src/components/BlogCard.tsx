@@ -20,9 +20,7 @@ export const BlogCard: React.FC<IProps> = (props) => {
       <div className='flex-1 bg-white p-6 flex flex-col justify-between'>
         <div className='flex-1'>
           <p className='text-sm font-medium text-green-600'>
-            <a href={props.post.category} className='hover:underline'>
-              {props.post.category}
-            </a>
+            <span>{props.post.category}</span>
           </p>
           <Link href={`/blogs/${props.post.id}`}>
             <div className='cursor-pointer'>
@@ -37,7 +35,7 @@ export const BlogCard: React.FC<IProps> = (props) => {
         </div>
         <div className='mt-6 flex items-center'>
           <div className='flex-shrink-0'>
-            <a href='#'>
+            <a href={props.post.userUrl}>
               <span className='sr-only'>{props.post.author.name}</span>
               <img
                 className='h-10 w-10 rounded-full'

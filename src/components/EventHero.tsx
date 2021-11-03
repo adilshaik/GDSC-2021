@@ -1,7 +1,7 @@
 import React from 'react';
 import { HiOutlineArrowNarrowDown } from 'react-icons/Hi';
 
-export function EventHero() {
+export const EventHero: React.FC = () => {
   return (
     <div className='relative bg-gray-50 overflow-hidden py-24 pb-48'>
       <div
@@ -81,7 +81,7 @@ export function EventHero() {
             <span className='block xl:inline'>Events to enrich your</span>{' '}
             <span className='block text-green-600 xl:inline'>Knowledge.</span>
           </h1>
-          <p className='mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl'>
+          <p className='mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-4xl'>
             We at GDSC CVR organise various events to help the student community
             gain as much knowledge and exposure as we possibly can provide. The
             main motive behind these events is to encourage students to explore
@@ -95,4 +95,4 @@ export function EventHero() {
       </div>
     </div>
   );
-}
+};

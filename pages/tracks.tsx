@@ -57,9 +57,8 @@ const tracks: React.FC = () => {
             Tracks
           </h1>
           <p className='mt-6 max-w-3xl text-xl text-gray-300'>
-            Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate
-            id malesuada non. Cras aliquet purus dui laoreet diam sed lacus,
-            fames. Dui, amet, nec sit pulvinar.
+            Our GDSC CVR has three tracks. Each track is dedicated on the
+            technologies and their respective development in the field.
           </p>
         </div>
       </div>

@@ -21,14 +21,14 @@ const cards = [
   },
 ];
 
-export const Motto = () => {
+export const Motto: React.FC = () => {
   return (
     <div className='pt-10 pb-32'>
       <h4 className='my-10 text-4xl font-bold text-center'>Our Motto</h4>
       <div className='flex flex-wrap justify-evenly items-center' id='card'>
         {cards.map((card) => {
           return (
-            <div className='card'>
+            <div key={card.title} className='card'>
               <div className='imgBox'>
                 <img src={card.image} alt={card.title} />
               </div>

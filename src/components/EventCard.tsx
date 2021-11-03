@@ -13,6 +13,7 @@ interface IEventContent {
   time: string;
   registerUrl: string;
   watchUrl: string;
+  speakers: string;
 }
 
 export const EventCard: React.FC<IProps> = (props) => {
@@ -31,12 +32,13 @@ export const EventCard: React.FC<IProps> = (props) => {
         props.content.map((event) => {
           return (
             <div
+              key={event.title}
               data-aos='fade-left'
-              className='max-w-4xl mx-8  rounded-xl my-20 p-4 flex flex-col items-center shadow-xl md:flex-row md:mx-auto'
+              className='max-w-4xl mx-8 rounded-xl my-20 p-4 flex flex-col items-center shadow-xl md:flex-row md:mx-auto'
             >
               <div
                 style={{ backgroundColor: '#ECEBFA' }}
-                className='w-full h-32 rounded-md flex flex-col text-center items-center justify-center md:w-52'
+                className='w-full h-52 rounded-md flex flex-col text-center items-center justify-center md:w-52'
               >
                 <h4 className='font-extrabold text-xl italic'>{event.date}</h4>
                 <h4 className='uppercase my-1 text-lg font-bold text-gray-600 tracking-wide'>
@@ -47,6 +49,12 @@ export const EventCard: React.FC<IProps> = (props) => {
                 <h3 className='text-xl font-semibold mb-2'>{event.title}</h3>
                 <p className='text-md font-semibold text-gray-500 pr-7'>
                   {event.description}
+                </p>
+                <p className='text-md font-semibold text-gray-600 my-2'>
+                  <span style={{ color: '#7C7C7C' }} className='font-bold'>
+                    Speakers:{' '}
+                  </span>{' '}
+                  {event.speakers}
                 </p>
                 {new Date().getTime() > new Date(event.date).getTime() ? (
                   <a

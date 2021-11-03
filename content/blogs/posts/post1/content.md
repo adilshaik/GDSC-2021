@@ -1,16 +1,16 @@
 ---
-title: 'Boost your conversion rate'
-category: 'Article'
-description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.'
+title: 'Simple Linear Regression'
+category: 'Machine Learning'
+description: 'Linear regression is the simplest form of a classification problem. We have many techniques to do this type of regression. Today we are going to learn how to use the PyTorch API to help us do this classification.'
 para:
-  - Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.
-  - Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique sit nisi lorem pulvinar. Urna, laoreet fusce nibh leo. Dictum et et et sit. Faucibus sed non gravida lectus dignissim imperdiet a.
-  - Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem arcu, metus, egestas netus cursus. In. Quis elit egestas venenatis mattis dignissim. Cras cras lobortis vitae vivamus ultricies facilisis tempus. Orci in sit morbi dignissim metus diam arcu pretium.
-  - Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.
-date: 'Mar 16, 2020'
-datetime: '2020-03-16'
-imageUrl: 'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80'
+  - The core concept behind the linear regression is the line equation. Y = m * x + C, Where Y , x = point on the line, m = slope , C = Y intercept. So, from the above equation we can create a line just by finding the optimal values of m,C.
+  - So we create a neural network and initialize it with random weights and biases.These represent the m,C of the line.
+  - In the above illustration it is clearly evident that the m,C are not able to help us classify the data correctly. So, any prediction deduced from the network is going to be wrong. Now, we have to train the network to get the optimal values of the m,C (weights and bias).
+  - While training networks for simple regression problems we need not worry much about over-fitting in most of the cases ,but if the number of epochs are not enough then the model might under-fit. In most of the cases 100–200 epochs are more than enough.
+date: 'May 05, 2020'
+datetime: '2020-05-05'
+imageUrl: 'https://miro.medium.com/max/782/1*s__TPBAazXrNLurjE77bcQ.png'
 author:
-  name: 'Roel Aufderehar'
-  imageUrl: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80'
+  name: 'Srimanth Tenneti'
+  imageUrl: '/team/SrimanthTenneti.jpg'
 ---

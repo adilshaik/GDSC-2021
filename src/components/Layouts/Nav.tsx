@@ -31,6 +31,9 @@ export const Nav: React.FC = () => {
                   src='/dsccvr.png'
                   alt='gdsccvr'
                 />
+                <span className='text-xl font-semibold mb-1'>
+                  Google Developers Student Club
+                </span>
               </div>
             </a>
           </Link>
@@ -76,13 +79,13 @@ export const Nav: React.FC = () => {
                 <Link href='/'>
                   <a className='flex items-center'>
                     <span className='sr-only'>CVR COLLEGE OF ENGINEERING</span>
-                    <div className='flex flex-col items-center'>
+                    <div className='flex flex-row items-center'>
                       <img
                         className='h-12 w-auto sm:h-12'
                         src='/dsccvr.png'
                         alt='gdsccvr'
                       />
-                      <span className='block text-lg tracking-wider font-semibold text-gray-500'>
+                      <span className='text-xl font-semibold mb-1'>
                         Google Developers Student Club
                       </span>
                     </div>
