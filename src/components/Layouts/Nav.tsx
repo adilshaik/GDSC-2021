@@ -9,7 +9,7 @@ const navigation = [
   { name: 'Events', href: '/events' },
   { name: 'Tracks', href: '/tracks ' },
   { name: 'Blogs', href: '/blogs' },
-  { name: 'WOW', href: '/wow ' },
+  // { name: 'WOW', href: '/wow ' },
 ];
 
 function classNames(...classes) {

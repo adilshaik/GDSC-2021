@@ -36,7 +36,7 @@ const eventList = [
     registerUrl: '',
   },
   {
-    title: 'Introduction to Web Technologies',
+    title: 'Day 1: Introduction to Web Technologies',
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
   temporibus dicta tempore, doloribus incidunt magni repudiandae id
   perferendis. Quas, hic!`,
@@ -46,7 +46,7 @@ const eventList = [
     registerUrl: '',
   },
   {
-    title: 'Introduction to Web Technologies',
+    title: 'Day 2: Introduction to Web Technologies',
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
   temporibus dicta tempore, doloribus incidunt magni repudiandae id
   perferendis. Quas, hic!`,
@@ -56,7 +56,7 @@ const eventList = [
     registerUrl: '',
   },
   {
-    title: 'Introduction to Web Technologies',
+    title: 'Day 3: Introduction to Web Technologies',
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
   temporibus dicta tempore, doloribus incidunt magni repudiandae id
   perferendis. Quas, hic!`,
