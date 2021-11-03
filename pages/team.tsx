@@ -1,4 +1,6 @@
+import Head from 'next/head';
 import React from 'react';
+import { Nav } from '../src/components/Layouts/Nav';
 import { TeamCard } from '../src/components/TeamCard';
 
 const people = [
@@ -59,9 +61,17 @@ const people = [
     linkedinUrl: '#',
   },
   {
+    name: 'Annam DevikaLahari',
+    role: 'Women Empowerment Lead',
+    imageUrl: '/team/lahari.jpeg',
+    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
     name: 'Thushar KE',
     role: 'Web Development Lead',
-    imageUrl: '/team/Abhinav.png',
+    imageUrl: '/team/thushar.jpeg',
     bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
     twitterUrl: '#',
     linkedinUrl: '#',
@@ -69,7 +79,7 @@ const people = [
   {
     name: 'Shaik Adil',
     role: 'GCP Facilitator & Web development core team',
-    imageUrl: '/team/Resumeimg.jpg',
+    imageUrl: '/team/adil.jpeg',
     bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
     twitterUrl: '#',
     linkedinUrl: '#',
@@ -134,29 +144,40 @@ const people = [
 
 const team: React.FC = () => {
   return (
-    <div className='bg-white'>
-      <div className='mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24'>
-        <div className='space-y-5 sm:space-y-4 mb-12'>
-          <h2 className='text-3xl font-extrabold tracking-tight sm:text-4xl'>
-            Our Team
-          </h2>
-        </div>
-        <div className='space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0'>
-          <div className='lg:col-span-3'>
-            <ul
-              role='list'
-              className='space-y-12 sm:grid sm:grid-cols-3 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8'
-            >
-              {people.map((person) => (
-                <li key={person.name}>
-                  <TeamCard person={person} />
-                </li>
-              ))}
-            </ul>
+    <React.Fragment>
+      <Head>
+        <title>GDSC</title>
+        <link rel='icon' href='/favicon.ico' />
+      </Head>
+      <Nav />
+      <div className='bg-white'>
+        <div className='mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24'>
+          <div className='text-center my-10'>
+            <h2 className='text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl'>
+              Our Team
+            </h2>
+            <p className='mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4'>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
+              libero labore natus atque, ducimus sed.
+            </p>
+          </div>
+          <div className='space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0'>
+            <div className='lg:col-span-3'>
+              <ul
+                role='list'
+                className='space-y-12 sm:grid sm:grid-cols-3 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8'
+              >
+                {people.map((person) => (
+                  <li key={person.name}>
+                    <TeamCard person={person} />
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </React.Fragment>
   );
 };
 
