@@ -9,6 +9,7 @@ const navigation = [
   { name: 'Events', href: '/events' },
   { name: 'Tracks', href: '/tracks ' },
   { name: 'Blogs', href: '/blogs' },
+  { name: 'Collaborations', href: '/collaboration' },
   // { name: 'WOW', href: '/wow ' },
 ];
 
@@ -16,7 +17,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
 
-export const Nav = () => {
+export const Nav: React.FC = () => {
   return (
     <Popover className='fixed w-full z-20 bg-white border-b-2 border-gray-50 shadow-lg'>
       <div className='flex justify-between items-center px-4 py-4 sm:px-6 md:justify-start md:space-x-10'>

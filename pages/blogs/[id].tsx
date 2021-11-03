@@ -1,6 +1,7 @@
 import { useRouter } from 'next/dist/client/router';
 import Head from 'next/head';
 import React, { useEffect, useState } from 'react';
+import { Footer } from '../../src/components/Layouts/Footer';
 import { Nav } from '../../src/components/Layouts/Nav';
 export interface IBlogPost {
   title: string;
@@ -35,7 +36,7 @@ const blog: React.FC = () => {
   return (
     <React.Fragment>
       <Head>
-        <title>GDSC</title>
+        <title>GDSC | Blogs</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Nav />
@@ -148,6 +149,7 @@ const blog: React.FC = () => {
           </div>
         </div>
       </main>
+      <Footer />
     </React.Fragment>
   );
 };

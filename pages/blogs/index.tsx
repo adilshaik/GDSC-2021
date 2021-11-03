@@ -2,6 +2,7 @@ import { Router, useRouter } from 'next/dist/client/router';
 import Head from 'next/head';
 import React, { useState, useEffect } from 'react';
 import { BlogCard } from '../../src/components/BlogCard';
+import { Footer } from '../../src/components/Layouts/Footer';
 import { Nav } from '../../src/components/Layouts/Nav';
 export interface IBlog {
   id: string;
@@ -32,7 +33,7 @@ const blogs: React.FC = () => {
   return (
     <React.Fragment>
       <Head>
-        <title>GDSC</title>
+        <title>GDSC | Blogs</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Nav />
@@ -57,6 +58,7 @@ const blogs: React.FC = () => {
           </div>
         </div>
       </main>
+      <Footer />
     </React.Fragment>
   );
 };

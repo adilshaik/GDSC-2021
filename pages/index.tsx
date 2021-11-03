@@ -13,7 +13,7 @@ import { Nav } from '../src/components/Layouts/Nav';
 import { Motto } from '../src/components/Motto';
 import { Testimonial } from '../src/components/Testimonial';
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <React.Fragment>
       <Head>
@@ -30,4 +30,6 @@ export default function Home() {
       <Footer />
     </React.Fragment>
   );
-}
+};
+
+export default Home;

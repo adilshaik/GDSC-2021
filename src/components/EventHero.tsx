@@ -82,10 +82,11 @@ export function EventHero() {
             <span className='block text-green-600 xl:inline'>Knowledge.</span>
           </h1>
           <p className='mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eos
-            neque nulla illo enim rerum! Labore magnam fugiat voluptatem culpa.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error,
-            sunt!
+            We at GDSC CVR organise various events to help the student community
+            gain as much knowledge and exposure as we possibly can provide. The
+            main motive behind these events is to encourage students to explore
+            the world of technology and innovation and help reach their true
+            potential.
           </p>
         </div>
       </main>

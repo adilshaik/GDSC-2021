@@ -7,28 +7,28 @@ import { BsLinkedin } from 'react-icons/Bs';
 const navigation = [
   {
     name: 'GitHub',
-    href: '#',
+    href: 'https://github.com/gdsccvr',
     icon: BsGithub,
   },
   {
     name: 'Instagram',
-    href: '#',
+    href: 'https://www.instagram.com/dsccvr/',
     icon: BsInstagram,
   },
   {
     name: 'Twitter',
-    href: '#',
+    href: 'https://twitter.com/gdsccvr?s=09',
     icon: BsTwitter,
   },
 
   {
     name: 'Youtube',
-    href: '#',
+    href: 'https://youtube.com/channel/UCx74X8jekY5Q3S0u7i6hOxw',
     icon: BsYoutube,
   },
   {
     name: 'Linkedin',
-    href: '#',
+    href: 'https://www.linkedin.com/in/gdsc-cvr-8781a4222',
     icon: BsLinkedin,
   },
 ];
