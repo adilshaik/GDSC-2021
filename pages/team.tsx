@@ -71,7 +71,7 @@ const people = [
   {
     name: 'Thushar KE',
     role: 'Web Development Lead',
-    imageUrl: '/team/thushar.jpeg',
+    imageUrl: '/team/thushar.jpg',
     bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
     twitterUrl: '#',
     linkedinUrl: '#',
