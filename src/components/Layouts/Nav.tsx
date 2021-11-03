@@ -8,7 +8,6 @@ const navigation = [
   { name: 'Team', href: '/team' },
   { name: 'Events', href: '/events' },
   { name: 'Tracks', href: '/tracks ' },
-  { name: 'Motto', href: '/motto' },
   { name: 'Blogs', href: '/blogs' },
   { name: 'WOW', href: '/wow ' },
 ];
@@ -19,7 +18,7 @@ function classNames(...classes) {
 
 export const Nav = () => {
   return (
-    <Popover className='fixed w-full z-10 bg-white border-b-2 border-gray-50 shadow-lg'>
+    <Popover className='fixed w-full z-20 bg-white border-b-2 border-gray-50 shadow-lg'>
       <div className='flex justify-between items-center px-4 py-4 sm:px-6 md:justify-start md:space-x-10'>
         <div className='flex justify-start lg:w-0 lg:flex-1'>
           <Link href='/'>
